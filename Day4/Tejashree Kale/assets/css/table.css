@@ -1,0 +1,55 @@
+*{
+    
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    
+}
+
+.wrap{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 50px;
+}
+body{
+    background-image: linear-gradient(rgb(179, 240, 246),white);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 100vh;
+}
+
+/*login form*/
+.modal-content{
+    width: 100%;
+    max-width: 500px;
+    padding: 2rem;
+    background-image: linear-gradient(white,rgb(250, 205, 142));
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); 
+    border-radius: 8px; 
+}
+
+
+
+h1 {
+    text-align: center;
+    margin-bottom: 1rem;
+}
+
+label {
+    margin-top: 1rem;
+    font-weight: bold;
+}
+
+.form-control {
+    margin-bottom: 1rem;
+}
+
+.psw{
+    margin-top: 1rem;  
+}
+
+.sub{
+    text-decoration: none;
+    color: white;
+}
